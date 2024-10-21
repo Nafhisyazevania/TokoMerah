@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* styles.css */
+
+body {
+    font-family: karla, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigasi */
+.header {
+    background: #800000;
+    color: #F8EDE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.logo {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.nav a {
+    padding: 10px;
+    color: #F8EDE3;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Banner */
+.banner {
+    background: #f4e3e3;
+    padding: 2rem;
+    text-align: center;
+    color: #800000;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.banner img {
+    width: 30%;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* Promo */
+.promo{
+    background: #f8f8f8;
+    padding: 2rem;
+    text-align: center;
+    color: #800000;
+    font-weight: 600;
+}
+
+.promo img{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+}
+
+.promo button{
+    background-color: #800000;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.promo button:hover{
+    background-color: #fff;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover{
+    text-decoration: none;
+    color: #800000;
+}
+
+
+/* List  Card */
+.container {
+    background-color: #800000;
+    padding: 2rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.judul {
+    text-align: center;
+    padding: 3rem;
+    color: #fff;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.product-info {
+    margin-top: 1rem;
+}
+
+/* Card Button */
+button {
+    background: #800000;
+    ;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background: #d7d7d7;
+    color: #ffffff;
+}
+
+/* Tentang Kami */
+.footer {
+    background: #fff;
+    color: #800000;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    color: #800000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.social-media a:hover {
+    color: #6e6e6e;
+}
